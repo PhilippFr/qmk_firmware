@@ -26,6 +26,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MANUFACTURER    KBDFans
 #define PRODUCT         KBD67v2
 
+/* Bluetooth Pins */
+#define AdafruitBleResetPin D4
+#define AdafruitBleCSPin    B5
+#define AdafruitBleIRQPin   E2
+
 /* key matrix size */
 #define MATRIX_ROWS 5
 #define MATRIX_COLS 16
@@ -41,8 +46,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DEBOUNCE 5
 
 /* indicators */
+
+/*
 #define LED_CAPS_LOCK_PIN D4
 #define LED_PIN_ON_STATE 0
+*/
 
 /* number of backlight levels */
 
