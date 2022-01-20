@@ -27,9 +27,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define PRODUCT         KBD67v2
 
 /* Bluetooth Pins */
-#define AdafruitBleResetPin D4
-#define AdafruitBleCSPin    B5
-#define AdafruitBleIRQPin   E2
+// #define AdafruitBleResetPin D4
+// #define AdafruitBleCSPin    E2
+// #define AdafruitBleIRQPin   B5
+
+/* MCP32S08 Port Expander Pins */
+#define PRResetPin D4
+#define PECSPin    E2
+#define PECSKPin   B5
 
 /* key matrix size */
 #define MATRIX_ROWS 5
